@@ -1,14 +1,14 @@
-import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
-const PlacesDetailScreen = (props) => {
+const PlaceDetailScreen = props => {
   return (
     <View>
-      <Text>Places Detail Screen</Text>
+      <Text>PlaceDetailScreen</Text>
     </View>
-  )
-}
+  );
+};
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
 
-export default PlacesDetailScreen
+export default PlaceDetailScreen;
